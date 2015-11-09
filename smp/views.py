@@ -9,6 +9,7 @@ from django.contrib.auth import authenticate,login,logout
 import datetime
 import json
 import time
+#change C4 here
 class AF(forms.Form):
 		auther =  forms.CharField()
 		institution = forms.CharField()
