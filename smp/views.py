@@ -9,7 +9,9 @@ from django.contrib.auth import authenticate,login,logout
 import datetime
 import json
 import time
+<<<<<<< HEAD
 #change B3 here
+>>>>>>> C4
 class AF(forms.Form):
 		auther =  forms.CharField()
 		institution = forms.CharField()
