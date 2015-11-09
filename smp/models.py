@@ -12,6 +12,8 @@ class Jounery(models.Model):
     jcount = models.IntegerField(default = 0)
 
 
+
+
 class Paper(models.Model):
     user = models. ForeignKey(User)
     MauthorID = models.IntegerField(default = 0)
